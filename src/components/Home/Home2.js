@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -17,38 +14,11 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+            <p className="home-about-body justify-content-evenly" style={{textAlign:"justify"}}>
+            I am a Software Engineering student with international internship experience, specializing in software development and AI research.
+            <br />
+            <br />
+            I can proficiently use a wide range of technologies including .Net, WPF, SQL Server, Redis, RabbitMQ, Docker, Flutter, RESTful API, Bloc, Cubit, Google Maps integration, ClimateGAN, Segment-Anything, YOLOv10, Gradio, Hugging Face, Next.js, Nest.js, PostgreSQL, Superbase, Redis optimization, Render, Vercel, Momo online payments, Jest, Stryker, Firebase, Trueway API, and Figma.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
