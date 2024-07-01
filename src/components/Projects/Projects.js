@@ -5,7 +5,8 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/MovieTicketApp.png";
+import MovieTicketApp from "../../Assets/Projects/MovieTicketApp.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,12 +24,43 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={MovieTicketApp}
+              isBlog={false}
+              title="CitySense - Traffic Solution Application"
+              description="CitySense is a traffic solution in UIT DataScience for smart city using technologies such as Flutter, Firebase, YOLOv8, and Deep Sort. The project incorporates Google Maps APIs and Trueway for seamless navigation and has been successfully deployed to the Google Store."
+              ghLink="https://github.com/ManhHoDinh/traffic_solution_dsc"
+              demoLink="https://www.youtube.com/watch?v=kdKI1uDDsek&list=PL4jE5bHezhPD70zWYzIMkuCwgBfRlO1l7"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MovieTicketApp}
+              isBlog={false}
+              title="Paradise Hotel Management"
+              description="Paradise is a comprehensive hotel management system. Using technologies such as Flutter, Visual Studio Code, and Firebase, the system aids in managing hotels including personnel, expenses, and revenues with features like account management, room management, customer management, and management of rental vouchers and invoices."
+              ghLink="https://github.com/ManhHoDinh/MovieTicketApp"
+              demoLink="https://www.youtube.com/watch?v=kdKI1uDDsek&list=PL4jE5bHezhPD70zWYzIMkuCwgBfRlO1l7"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MovieTicketApp}
+              isBlog={false}
+              title="Movie Ticket Application"
+              description="Movie lover is a movie ticket management application. Providing a user-friendly interface for booking movie tickets conveniently. The application utilizes Java android for the frontend and Firebase for the backend, offering features like account management, ticket booking, payment integration and movie information display."
+              ghLink="https://github.com/ManhHoDinh/MovieTicketApp"
+              demoLink="https://www.youtube.com/watch?v=kdKI1uDDsek&list=PL4jE5bHezhPD70zWYzIMkuCwgBfRlO1l7"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Spotify"
+              description="Spotify is a music player for desktop user. Using technologies including WPF, XAML, SQL Server, and Git, the system provides a modern and intuitive interface to enjoy music with features like real-time song tracking, playlist management, and account management. Implemented using a MVVM model, it offers a robust and seamless music streaming experience."
+              ghLink="https://github.com/ManhHoDinh/Spotify"
+              demoLink="https://github.com/ManhHoDinh/Spotify"
             />
           </Col>
           {/* 
